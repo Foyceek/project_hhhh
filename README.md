@@ -1,5 +1,6 @@
 Team members
 Member 1 (responsible for ...)
+![2-channel-relay_description](https://github.com/Foyceek/project_hhhh/assets/148572907/cfc454e1-d45e-40e1-861a-2a72c0d3ce87)
 
 Member 2 (responsible for ...)
 
