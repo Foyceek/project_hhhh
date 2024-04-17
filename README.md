@@ -1,8 +1,12 @@
 Team members
 Member 1 (responsible for ...)
+
 Member 2 (responsible for ...)
+
 Member 3 (responsible for ...)
+
 Member 4 (responsible for ...)
+
 Theoretical description and explanation
 Enter a description of the problem and how to solve it.
 
