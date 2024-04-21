@@ -14,6 +14,8 @@ Enter a description of the problem and how to solve it.
 
 ## Hardware description of demo application
 Insert descriptive text and schematic(s) of your implementation.
+![image](https://github.com/Foyceek/project_hhhh/assets/165892683/6ae91ec7-e27f-44e8-b6d1-f733886b80a0)
+
 
 ## Software description
 Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
