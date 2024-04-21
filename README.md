@@ -3,7 +3,7 @@
 ## Team members
 František Hecl (responsible for sound synthetizer module code and testbench)
 
-Ondřej Hrozek (responsible for general project idea and organization, clock switch code)
+Ondřej Hrozek (responsible for general project idea and organization, clock switch code, schematic)
 
 Lukáš Horák (responsible for top level code)
 
