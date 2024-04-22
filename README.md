@@ -1,4 +1,5 @@
 ### Project: Relay-Controlled Sound Synthesizer
+Relay used:
 ![2-channel-relay_description](https://github.com/Foyceek/project_hhhh/assets/148572907/cfc454e1-d45e-40e1-861a-2a72c0d3ce87)
 ## Team members
 František Hecl (responsible for sound synthetizer module code and testbench)
