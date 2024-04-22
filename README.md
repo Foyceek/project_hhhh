@@ -15,11 +15,12 @@ We developed and implemented a sound synthesizer using a relay on the Nexys A7 F
 
 ## Hardware description of demo application
 Just five switches are used as user inputs. The outputs are a seven segment display, LEDs to indicate the switch states and RGB LEDs to indicate playback state.
+
 Implementation schematic: 
 ![image](https://github.com/Foyceek/project_hhhh/assets/165892683/6ae91ec7-e27f-44e8-b6d1-f733886b80a0)
 
 ## Software description
-Put flowchats/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
+Put flowcharts/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
 
 ## Component(s) simulation
 Write descriptive text and put simulation screenshots of your components.
