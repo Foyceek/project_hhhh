@@ -61,10 +61,9 @@ The relay input should be connected to the first pin of the JC Pmod.
 
 ![deboard](https://github.com/Foyceek/project_hhhh/assets/148572907/07dc4bf2-ded1-4dc9-9101-3f6f8d5f5581)
 
-```diff
-- Insert video link
-```
+Demo video:
 
+https://github.com/Foyceek/project_hhhh/assets/148572907/f7e40438-f5c9-4a8a-8ade-0ed7a6af3786
 
 ## References
 Nexys A7 Reference Manual: [nexys-a7_rm.pdf](https://github.com/Foyceek/project_hhhh/files/15051833/nexys-a7_rm.pdf)
