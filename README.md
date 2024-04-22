@@ -31,17 +31,24 @@ Application state diagram:
 
 ![Untitled](https://github.com/Foyceek/project_hhhh/assets/148572907/30128e04-d3c7-4f2c-b128-db7e6d575ca0)
 
+```diff
+- Insert links to testbenches
+```
 
 ## Component(s) simulation
 We developed two components from scratch, clock_switch and sound_synthesizer. Other modules were taken from the  [vhdl course repository](https://github.com/tomas-fryza/vhdl-course), and slightly altered for our input and output needs.
 
 The clock_switch module takes user input in a form of a binary number and based on that, it selects which clock controls the simple_counter module. By this we can control the playback speed.
 
-Insert simulation screenshot
+```diff
+- Insert clock_switch simulation screenshot
+```
 
 The sound_sunthesizer module takes user input in the same way as the clock_switch module, in a form of a binary number, and based on that, it select a prerecorded melody to be played by the relay.
 
-Insert simulation screenshot
+```diff
+- Insert sound_sunthesizer simulation screenshot
+```
 
 ## Instructions
 1. Use switches 1 and 2 to select one of four melodies. The melody number shows on the display.
@@ -51,9 +58,13 @@ Insert simulation screenshot
 
 The relay input should be connected to the first pin of the JC Pmod.
 ![image](https://github.com/Foyceek/project_hhhh/assets/148572907/5345251a-be2b-40f1-b19c-ea937391ffa5)
+
 ![deboard](https://github.com/Foyceek/project_hhhh/assets/148572907/07dc4bf2-ded1-4dc9-9101-3f6f8d5f5581)
 
-Insert video link.
+```diff
+- Insert video link
+```
+
 
 ## References
 Nexys A7 Reference Manual: [nexys-a7_rm.pdf](https://github.com/Foyceek/project_hhhh/files/15051833/nexys-a7_rm.pdf)
