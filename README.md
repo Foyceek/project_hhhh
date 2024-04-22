@@ -26,6 +26,15 @@ Write descriptive text and put simulation screenshots of your components.
 ## Instructions
 Write an instruction manual for your application, including photos and a link to a short app video.
 
+This application supports the replaying of four prerecorded melodies. Choosing these melodies is done by switching switches number 1 and 2 (all the way to the right). The melody order can be seen at the seven segment display starting at 0 and ending at 3.
+It is possible to choose from four preset playback speeds by switching switches number 12 and 13, similar to the choosing of melodies.
+A melody being played is signalized by a green LED and every time it starts over, a blue LED blinks. You can stop the playback by switching on the switch number 15 (all the way to the left), this also causes the green LED to be replaced by a red one.
+
+1. Use switches 1 and 2 to select one of four melodies. The melody number shows on the display.
+2. Use switches 12 and 13 to choose the playback speed.
+3. A green LED shows when a melody is playing. A blue LED blinks when the melody restarts.
+4. To stop playback, use switch 15. This changes the green LED to red.
+
 ## References
 Nexys A7 Reference Manual: [nexys-a7_rm.pdf](https://github.com/Foyceek/project_hhhh/files/15051833/nexys-a7_rm.pdf)
 
