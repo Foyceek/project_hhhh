@@ -1,10 +1,12 @@
 ### Project: Relay-Controlled Sound Synthesizer
 Relay used:
+
 ![2-channel-relay_description](https://github.com/Foyceek/project_hhhh/assets/148572907/cfc454e1-d45e-40e1-861a-2a72c0d3ce87)
 
 Nexys Artix-7 FPGA board used:
 
-Insert board image
+![20240327_110112](https://github.com/Foyceek/project_hhhh/assets/148572907/ce0b5524-4485-4bec-ba52-5dd356e4e266)
+
 
 ## Team members
 František Hecl (responsible for sound synthesizer module code and testbench, management of this repository)
@@ -25,10 +27,13 @@ Implementation schematic:
 ![image](https://github.com/Foyceek/project_hhhh/assets/165892683/6ae91ec7-e27f-44e8-b6d1-f733886b80a0)
 
 ## Software description
-Put flowcharts/state diagrams of your algorithm(s) and direct links to source/testbench files in src and sim folders.
+Application state diagram:
+
+![Untitled](https://github.com/Foyceek/project_hhhh/assets/148572907/30128e04-d3c7-4f2c-b128-db7e6d575ca0)
+
 
 ## Component(s) simulation
-We developed two components from scratch, clock_switch and sound_synthesizer. Other modules were taken from vhdl course repository (link?), and slightly altered for our input and output needs.
+We developed two components from scratch, clock_switch and sound_synthesizer. Other modules were taken from the  [vhdl course repository](https://github.com/tomas-fryza/vhdl-course), and slightly altered for our input and output needs.
 
 The clock_switch module takes user input in a form of a binary number and based on that, it selects which clock controls the simple_counter module. By this we can control the playback speed.
 
@@ -45,8 +50,10 @@ Insert simulation screenshot
 4. To stop playback, use switch 15. This changes the green LED to red.
 
 The relay input should be connected to the first pin of the JC Pmod.
+![image](https://github.com/Foyceek/project_hhhh/assets/148572907/5345251a-be2b-40f1-b19c-ea937391ffa5)
+![deboard](https://github.com/Foyceek/project_hhhh/assets/148572907/07dc4bf2-ded1-4dc9-9101-3f6f8d5f5581)
 
-Insert two reference images and video link.
+Insert video link.
 
 ## References
 Nexys A7 Reference Manual: [nexys-a7_rm.pdf](https://github.com/Foyceek/project_hhhh/files/15051833/nexys-a7_rm.pdf)
