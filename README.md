@@ -14,6 +14,7 @@ Petr Horáček (responsible for video editing)
 We developed and implemented a sound synthesizer using a relay on the Nexys A7 FPGA board. Instead of generating audio signals directly, our system utilized a relay connected to a Pmod connector to produce audible sounds by managing the activation and deactivation of the relay switch. Users replay basic melodies by selecting the relay sequences. We integrated switches as controls for play, stop, and song navigation, while LEDs and a 7-segment display provide visualization of the melody.
 
 ## Hardware description of demo application
+Just five switches are used as user inputs. The outputs are a seven segment display, LEDs to indicate the switch states and RGB LEDs to indicate playback state.
 Implementation schematic: 
 ![image](https://github.com/Foyceek/project_hhhh/assets/165892683/6ae91ec7-e27f-44e8-b6d1-f733886b80a0)
 
