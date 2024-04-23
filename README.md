@@ -23,7 +23,8 @@ We developed and implemented a sound synthesizer using a relay on the Nexys A7 F
 ## Hardware description of demo application
 Just five switches are used as user inputs. The outputs are a seven segment display, LEDs to indicate the switch states, RGB LEDs to indicate playback state and a relay controlling Pmod output.
 
-Implementation schematic: 
+Implementation schematic:
+
 ![image](https://github.com/Foyceek/project_hhhh/assets/165892683/6ae91ec7-e27f-44e8-b6d1-f733886b80a0)
 
 ## Software description
@@ -47,7 +48,7 @@ The clock_switch module takes user input in a form of a binary number and based 
 The sound_sunthesizer module takes user input in the same way as the clock_switch module, in a form of a binary number, and based on that, it select a prerecorded melody to be played by the relay.
 
 ```diff
-- Insert sound_sunthesizer simulation screenshot
+- Insert sound_synthesizer simulation screenshot
 ```
 
 ## Instructions
@@ -57,6 +58,7 @@ The sound_sunthesizer module takes user input in the same way as the clock_switc
 4. To stop playback, use switch 15. This changes the green LED to red.
 
 The relay input should be connected to the first pin of the JC Pmod.
+
 ![image](https://github.com/Foyceek/project_hhhh/assets/148572907/5345251a-be2b-40f1-b19c-ea937391ffa5)
 
 ![deboard](https://github.com/Foyceek/project_hhhh/assets/148572907/07dc4bf2-ded1-4dc9-9101-3f6f8d5f5581)
