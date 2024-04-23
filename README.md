@@ -51,7 +51,7 @@ clock_switch simulation:
 
 ![434779698_969306288035772_3204128901861703787_n](https://github.com/Foyceek/project_hhhh/assets/165892683/44d88aff-5ca4-4d21-9d73-08be821a9e6b)
 
-The sound_sunthesizer module takes user input in the same way as the clock_switch module, in a form of a binary number, and based on that, it select a prerecorded melody to be played by the relay.
+The sound_synthesizer module takes user input in the same way as the clock_switch module, in a form of a binary number, and based on that, it select a prerecorded melody to be played by the relay.
 
 sound_synthesizer simulation:
 
