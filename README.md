@@ -33,10 +33,13 @@ Application state diagram:
 ![Untitled](https://github.com/Foyceek/project_hhhh/assets/148572907/30128e04-d3c7-4f2c-b128-db7e6d575ca0)
 
 Links to components we developed:
+
 [clock_switch source file](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sources_1/new/clock_switch.vhd)
+
 [clock_switch testbench](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sim_1/new/tb_clock_switch.vhd)
 
 [sound_synthesizer source file](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sources_1/new/sound_synth.vhd)
+
 [sound_synthesizer testbench](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sim_1/new/tb_sound_synth.vhd)
 
 ## Component(s) simulation
