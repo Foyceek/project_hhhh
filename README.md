@@ -42,13 +42,16 @@ We developed two components from scratch, clock_switch and sound_synthesizer. Ot
 The clock_switch module takes user input in a form of a binary number and based on that, it selects which clock controls the simple_counter module. By this we can control the playback speed.
 
 ```diff
-- Insert clock_switch simulation screenshot
+![434779698_969306288035772_3204128901861703787_n](https://github.com/Foyceek/project_hhhh/assets/165892683/0e44bcd1-1ab2-4466-bfda-de38dd7d2e8f)
+
+
 ```
 
 The sound_sunthesizer module takes user input in the same way as the clock_switch module, in a form of a binary number, and based on that, it select a prerecorded melody to be played by the relay.
 
 ```diff
-- Insert sound_synthesizer simulation screenshot
+![b46d48c3-565f-4953-9d6f-ac43528cacb0](https://github.com/Foyceek/project_hhhh/assets/165892683/46d6d866-b121-4a29-9cc4-e76db970c25e)
+
 ```
 
 ## Instructions
