@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_hhhh.srcs/sources_1/new/sound_synth.vhd" \
+"../../../../project_hhhh.srcs/sim_1/new/tb_sound_synth.vhd" \
+
+# Do not sort compile order
+nosort
