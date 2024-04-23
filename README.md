@@ -32,28 +32,27 @@ Application state diagram:
 
 ![Untitled](https://github.com/Foyceek/project_hhhh/assets/148572907/30128e04-d3c7-4f2c-b128-db7e6d575ca0)
 
-```diff
-- Insert links to testbenches
-```
+Links to components we developed:
+[clock_switch source file](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sources_1/new/clock_switch.vhd)
+[clock_switch testbench](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sim_1/new/tb_clock_switch.vhd)
+
+[sound_synthesizer source file](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sources_1/new/sound_synth.vhd)
+[sound_synthesizer testbench](https://github.com/Foyceek/project_hhhh/blob/main/project_hhhh/project_hhhh.srcs/sim_1/new/tb_sound_synth.vhd)
 
 ## Component(s) simulation
 We developed two components from scratch, clock_switch and sound_synthesizer. Other modules were taken from the  [vhdl course repository](https://github.com/tomas-fryza/vhdl-course), and slightly altered for our input and output needs.
 
 The clock_switch module takes user input in a form of a binary number and based on that, it selects which clock controls the simple_counter module. By this we can control the playback speed.
 
-
+clock_switch simulation:
 
 ![434779698_969306288035772_3204128901861703787_n](https://github.com/Foyceek/project_hhhh/assets/165892683/44d88aff-5ca4-4d21-9d73-08be821a9e6b)
 
-
-
-
 The sound_sunthesizer module takes user input in the same way as the clock_switch module, in a form of a binary number, and based on that, it select a prerecorded melody to be played by the relay.
 
+sound_synthesizer simulation:
 
 ![image](https://github.com/Foyceek/project_hhhh/assets/165892683/21969a4b-9960-43dc-b5b7-011115b6861a)
-
-
 
 ## Instructions
 1. Use switches 1 and 2 to select one of four melodies. The melody number shows on the display.
@@ -73,4 +72,6 @@ https://github.com/Foyceek/project_hhhh/assets/148572907/f7e40438-f5c9-4a8a-8ade
 
 ## References
 Nexys A7 Reference Manual: [nexys-a7_rm.pdf](https://github.com/Foyceek/project_hhhh/files/15051833/nexys-a7_rm.pdf)
+
+[Online VHDL Testbench Template Generator](https://vhdl.lapinoo.net/testbench/)
 
