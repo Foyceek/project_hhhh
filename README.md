@@ -76,3 +76,4 @@ Nexys A7 Reference Manual: [nexys-a7_rm.pdf](https://github.com/Foyceek/project_
 
 [Online VHDL Testbench Template Generator](https://vhdl.lapinoo.net/testbench/)
 
+[State diagram online generator](https://www.visual-paradigm.com/)
